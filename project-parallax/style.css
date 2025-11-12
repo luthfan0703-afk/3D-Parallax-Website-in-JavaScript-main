@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #000000;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 30px 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  margin-top: 20px;
+}
+header .navigation {
+  display: flex;
+}
+
+.navigation a {
+  padding-right: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-size: 2em;
+  color: wheat;
+  margin-right: 270px;
+  text-transform: uppercase;
+}
+
+button {
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: 1px solid white;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+main img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+#img1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#img2 {
+  position: absolute;
+  width: 1300px;
+}
+
+#text {
+  position: absolute;
+  z-index: 2;
+  top: 20%;
+  left: 20%;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+#text h2 {
+  font-size: 100px;
+  font-weight: 500;
+}
+
+#text {
+  font-size: 90px;
+}
+
+#about-sec {
+  position: relative;
+  background-color: white;
+  z-index: 100;
+  height: 100vh;
+  display: flex;  
+}
+
+#img3 {
+  width: 300px;
+  position: absolute;
+  z-index: 2000;
+  left: 31%;
+  border-radius: 20%;
+  padding-top: 20px;
+}
+
+#img4 {
+  padding: 20px;
+  width: 400px;
+  border-radius: 20%;
+  position: absolute;
+  padding: 20px;
+  z-index: 30000;
+}
+
+.card-two h3{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: red;
+  font-size: 16px;
+  top: 0%;
+  left: 60%;
+  line-height: 200px;
+  text-decoration: underline black;
+}
+
+.card-two p{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: black;
+  font-size: 16px;
+  top: 35%;
+  left: 60%;
+}
+.card-two h1{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: black;
+  top: 20%;
+  left: 60%;
+}
+.btn{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: black;
+  top: 70%;
+  left: 60%;
+  background-color: aquamarine;
+}
+
+span {
+  color: orange;
+}
+
+#text1 {
+  font-size: 47px;
+  text-transform: uppercase;
+}
+#text2 {
+  font-size: 24px;
+}
+
+#text-sec {
+  background-color: #000000;
+  color: white;
+  position: absolute;
+  left: 32%;
+  top: 70%;
+  z-index: 10000;
+  text-align: center;
+  border-radius: 10%;
+  padding: 20px 15px;
+}
